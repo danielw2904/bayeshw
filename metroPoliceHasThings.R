@@ -30,7 +30,9 @@ X <- cbind(X,1)
 #X <- cbind(as.vector(matrix(1,nrow(X),1)),X)
 
 ###### constructing an nx1 vector containing the average of the first p observations for each variable
-
+fun <- function(x){
+    print('This is fun')
+}
 #y0 <- as.vector(matrix(0,ncol(Y),1))
 y0 <- rep(0, ncol(Y))
 
